@@ -1,0 +1,356 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Homepage</title>
+  <meta name="description" content="Website starter HTML template for an application">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  <meta name="theme-color" content="currentColor">
+  <meta property="og:image" content="https://saltui.com/assets/images/page.jpg?v=7" />
+  <link rel="icon" type="image/x-icon" href="/assets/images/favicon.png">
+
+  <!-- Bootstrap CSS library -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+    crossorigin="anonymous">
+  <link href="assets/css/style.css" rel="stylesheet">
+</head>
+
+<body id="saltuiHtml">
+
+  <header data-aos="fade-zoom-in">
+    <div class="d-flex py-4 px-3">
+      <div class=""> <a href="home.html" class="d-flex align-items-center text-dark text-decoration-none"> <img
+            src="assets/images/logo.jpg" class="mt-1" width="70"> </a> </div>
+      <div class="ms-auto"> <a class="btn btn-sm btn-outline-secondary rounded-5 px-3" href="login.php">Sign in</a> <a
+          class="btn btn-sm btn-secondary rounded-5 px-3" href="signup.php">Sign up</a> </div>
+    </div>
+    <div class="menu bg-primary">
+      <nav class="navbar navbar-expand-md p-0 m-0">
+        <div class="container-fluid"> <a class="navbar-toggler ms-sm-auto mx-3 me-md-0 p-2 border-0 text-white"
+            data-bs-toggle="collapse" data-bs-target="#navbarCategoryCollapse" aria-controls="navbarCategoryCollapse"
+            aria-expanded="false" aria-label="Toggle navigation"> <i class="bi bi-list fs-4"></i> </a>
+          <div class="navbar-collapse collapse" id="navbarCategoryCollapse">
+            <ul class="navbar-nav navbar-nav-scroll nav-pills-primary-soft text-center p-0">
+              <li class="nav-item active"> <a class="nav-link" href="home.html">Home</a></li>
+              <li class="nav-item"> <a class="nav-link" href="cus-item-list.php">Item List</a></li>
+              <li class="nav-item"> <a class="nav-link" href="pawn-sell.html">Pawn/sell</a></li>
+              <li class="nav-item"> <a class="nav-link" href="cus-expert-list.php">Expert List</a></li>
+              <li class="nav-item"> <a class="nav-link" href="contact.html">Contacts</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="py-5 h-100vh"
+      style="background: radial-gradient(116.18% 118% at 50% 100%, rgb(0 5 255 / 10%) 0%, rgb(219 0 160 / 5%) 41.83%, rgb(0 64 255 / 10%) 82.52%)">
+      <div class="container py-5">
+        <div class="row align-items-center justify-content-center">
+          <div class="col-12 col-md-6 col-lg-6 text-center text-md-start" data-aos="fade-zoom-in">
+            <h2
+              class="fs-6 fw-normal rounded-1 text-center text-md-start bg-secondary bg-opacity-75 text-white py-1 px-2 d-inline lh-1">
+              Ultimate pawnshop experience! </h2>
+            <h1 class="display-5 mt-2 fw-bold h1" data-aos="fade-up" data-aos-delay="300">
+              <a href="#" class="txt-h-effect" data-replace="Sell">
+                <span class="text-primary">Pawn</span>
+              </a> precious belongings for the right price!
+            </h1>
+            <p class="lead text-muted pt-2 fw-normal"> PawnAsiba app provides the tools, guidance, expert advice and market knowledge you need
+              to get the fair price for your desired purchases. </p>
+            <div class="d-flex align-items-end gap-1 rate fs-6 opacity-75 text-primary"> <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i> <i
+                class="bi bi-star-half"></i>
+            </div>
+            <div class="d-flex mt-3 w-50">
+              <div class="me-2">
+                <a href="#" class="left mb-2">
+                  <img src="assets/images/google-play.png" alt="Google play" class="img-fluid me-2 shadow-sm">
+                </a>
+              </div>
+              <div>
+                <a href="#" class="left mb-2">
+                  <img src="assets/images/apple-store.png" alt="Apple store" class="img-fluid shadow-sm">
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-6 text-center mb-n2 order-1 hero-arts">
+            <div class="position-relative" data-aos="fade-zoom-in">
+              <figure class="fill-blue position-absolute top-0 end-0 me-5 d-none d-xl-block"
+                style="position: absolute !important;z-index: 99;top: -35px !important;"> <svg width="42px"
+                  height="42px">
+                  <path
+                    d="M21.000,-0.001 L28.424,13.575 L41.999,20.999 L28.424,28.424 L21.000,41.998 L13.575,28.424 L-0.000,20.999 L13.575,13.575 L21.000,-0.001 Z">
+                  </path>
+                </svg>
+              </figure>
+              <figure class="fill-blue" style="opacity: 0.1;"> <svg width="300px" height="308px" viewbox="0 0 554 544"
+                  style="enable-background:new 0 0 554 544;" xml:space="preserve">
+                  <path class="fill-primary"
+                    d="M423.3,77.2c49.5,32.5,100.4,67.2,118.4,114.5s3.5,107.1-15.4,165.7c-18.7,58.6-41.8,116.1-84,148.6 c-42.5,32.8-104.2,40.2-163.8,37.3c-59.5-3.2-116.8-17.1-164.7-47.9c-48.3-30.6-87.2-78.2-102-131.6C-3,310.5,6.6,251,25.3,194.7 C43.6,138,70.7,84.3,114.1,49.5C157.2,14.8,216.7-1,270.8,6.4C324.8,14.2,373.4,44.7,423.3,77.2z">
+                  </path>
+                </svg>
+              </figure>
+              <img src="assets/images/hero.png" class="img-fluid position-absolute hero-art"
+                data-aos="fade-up" data-aos-delay="600">
+              <figure class="fill-blue position-absolute start-0 translate-middle-x mt-n5 ms-5">
+                <svg width="55px" height="55px">
+                  <path
+                    d="M10.717,4.757 L14.440,-0.001 L14.215,6.023 L20.142,4.757 L16.076,9.228 L21.435,12.046 L15.430,12.873 L17.713,18.457 L12.579,15.252 L10.717,20.988 L8.856,15.252 L3.722,18.457 L6.005,12.873 L-0.000,12.046 L5.359,9.228 L1.292,4.757 L7.220,6.023 L6.995,-0.001 L10.717,4.757 Z">
+                  </path>
+                </svg>
+              </figure>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-5">
+    <div class="container py-5">
+      <div class="row align-items-center">
+        <div class="col-12 col-md-6">
+          <div class="bg-primary bg-opacity-10 rounded-3 p-4 me-5">
+            <img src="assets/images/homeSection.webp" alt="..." class="img-fluid rounded-3 shadow-sm" data-aos="fade-up"
+              data-aos-delay="600">
+          </div>
+        </div>
+        <div class="col-12 col-md-6">
+          <div class="pe-3" data-aos="fade-zoom-in">
+            <div class="mb-3">
+              <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
+                class="bi bi-command text-primary" viewbox="0 0 16 16">
+                <path
+                  d="M3.5 2A1.5 1.5 0 0 1 5 3.5V5H3.5a1.5 1.5 0 1 1 0-3zM6 5V3.5A2.5 2.5 0 1 0 3.5 6H5v4H3.5A2.5 2.5 0 1 0 6 12.5V11h4v1.5a2.5 2.5 0 1 0 2.5-2.5H11V6h1.5A2.5 2.5 0 1 0 10 3.5V5H6zm4 1v4H6V6h4zm1-1V3.5A1.5 1.5 0 1 1 12.5 5H11zm0 6h1.5a1.5 1.5 0 1 1-1.5 1.5V11zm-6 0v1.5A1.5 1.5 0 1 1 3.5 11H5z">
+                </path>
+              </svg>
+            </div>
+            <h4 class="fs-5">We maximize your earnings.</h4>
+            <h2 class="fs-1 text-primary">Pawn services made <i class="text-dark">EASY</i></h2>
+            <p class="fs-lg text-gray mb-4 mt-3"> Instead of constantly worrying about when your home will be in demand,
+              just share your availability and we will price based on popularity of your listing, seasonal factors,
+              nearby events, and more. </p> <!-- List -->
+            <div class="row mb-4">
+              <div class="col-12 col-lg-6">
+                <div class="d-flex mb-3">
+                  <div class="badge badge-rounded-circle bg-primary-soft me-4"> <i class="bi bi-chevron-right"></i>
+                  </div>
+                  <p class="mb-0 mt-1"> No additional or hidden charges </p>
+                </div>
+                <div class="d-flex">
+                  <div class="badge badge-rounded-circle bg-primary-soft me-4"> <i class="bi bi-chevron-right"></i>
+                  </div>
+                  <p class="mb-0 mt-1"> No interests or commision for auction recommendation or expert advice </p>
+                </div>
+              </div>
+              <div class="col-12 col-lg-6">
+                <div class="d-flex mb-3">
+                  <span class="badge badge-rounded-circle bg-primary-soft me-4">
+                    <i class="bi bi-chevron-right"></i>
+                  </span>
+                  <p class="mb-0 mt-1"> No wasted time </p>
+                </div>
+                <div class="d-flex">
+                  <div class="badge badge-rounded-circle bg-primary-soft me-1 me-4"> <i class="bi bi-chevron-right"></i>
+                  </div>
+                  <p class="mb-0 mt-1"> Easier paperwork and law enforcement verification </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="py-5 bg-light case-study">
+    <div class="container py-5">
+      <div class="row justify-content-center text-center pb-3 mb-sm-2 mb-lg-3">
+        <h5 class="text-primary">Our Team</h5>
+        <h2 class="display-5 fw-medium pb-3 mb-3">Working together.</h2>
+      </div>
+      <div class="row gy-5 lightbox-gallery">
+        <div class="col-lg-6" data-aos="fade-up">
+          <div class="row">
+            <div class="col-md-5">
+              <img src="assets/images/nafis.jpg" class="img-fluid rounded-3" title="" alt="">
+            </div>
+            <div class="col-md-7 px-3">
+              <h6 class="text-primary">Frontend & Backend</h6>
+              <h4 class="fs-4"> Nafis Al Shams </h4>
+              <p class="text-muted">“We cannot solve problems with the kind of thinking we employed when we came up with them.” — Albert Einstein</p>
+              <div class="btn-bar py-1"> <a class="" href="https://www.facebook.com/NafizZz.ninehundredninetynine/"><i class="bi-arrow-up-right fs-5"></i></a> </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
+          <div class="row">
+            <div class="col-md-5">
+              <img src="assets/images/adiba.jpg" class="img-fluid rounded-3" title="" alt="">
+            </div>
+            <div class="col-md-7 px-3">
+              <h6 class="text-primary">Backend & Database features</h6>
+              <h4 class="fs-4"> Adiba Amreen Alam </h4>
+              <p class="text-muted">“Learn as if you will live forever, live like you will die tomorrow.” — Mahatma Gandhi</p>
+              <div class="btn-bar py-1"> <a class="" href="https://www.facebook.com/adiba.alam.5602"><i class="bi-arrow-up-right fs-5"></i class="bi-arrow-up-right fs-5" ></a> </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6" data-aos="fade-up" data-aos-delay="600">
+          <div class="row">
+            <div class="col-md-5">
+              <img src="assets/images/work2.jpg" class="img-fluid rounded-3" title="" alt="">
+            </div>
+            <div class="col-md-7 px-3">
+              <h6 class="text-primary">Front end help and theoretical help</h6>
+              <h4 class="fs-4"> Kamran Hossain</h4>
+              <p class="text-muted">“When you change your thoughts, remember to also change your world.”—Norman Vincent Peale</p>
+              <div class="btn-bar py-1"> <a class="" href="https://www.facebook.com/kamran.hossain.1485"><i class="bi-arrow-up-right fs-5"></i></a> </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6" data-aos="fade-up" data-aos-delay="900">
+          <div class="row">
+            <div class="col-md-5">
+              <img src="assets/images/zaed.jpg" class="img-fluid rounded-3" title="" alt="">
+            </div>
+            <div class="col-md-7 px-3">
+              <h6 class="text-primary">Backend & Database</h6>
+              <h4 class="fs-4"> Md Zaed Hassan Shams </h4>
+              <p class="text-muted">"Success is not final; failure is not fatal: It is the courage to continue that counts." — Winston S. Churchill</p>
+              <div class="btn-bar py-1"> <a class="" href="https://www.facebook.com/iam.s.ams.me"><i class="bi-arrow-up-right fs-5"></i></a> </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="feature" data-aos="fade-up">
+    <div class="container py-5">
+      <h2 class="h1 text-center text-primary pb-4 py-2">Benefits</h2>
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4 gy-4 gy-sm-5 gx-4 pb-3 pb-md-4 pb-lg-5 mb-md-3 mb-lg-0">
+        <!-- Item-->
+        <div class="col text-center">
+          <div class="ratio ratio-1x1 position-relative mx-auto mb-3 mb-sm-4" style="width: 68px;">
+            <i class="bi bi-tools text-secondary fs-3 d-flex align-items-center justify-content-center position-absolute start-0"></i>
+            <svg class="position-absolute top-0 start-0 text-secondary" width="68" height="68" viewbox="0 0 68 68"
+              fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M56.0059 60.5579C44.1549 78.9787 18.0053 58.9081 6.41191 46.5701C-2.92817 35.5074 -2.81987 12.1818 11.7792 3.74605C30.0281 -6.79858 48.0623 7.40439 59.8703 15.7971C71.6784 24.1897 70.8197 37.5319 56.0059 60.5579Z"
+                fill-opacity="0.1"></path>
+            </svg>
+          </div>
+          <h3 class="h4 pb-2 mb-1">Online support</h3>
+          <p class="fs-sm mb-0">We provide you, the customer with 24/7 online customer support and any kind of queries regarding items and experts at our disposal.</p>
+        </div> <!-- Item-->
+        <div class="col text-center">
+          <div class="ratio ratio-1x1 position-relative mx-auto mb-3 mb-sm-4" style="width: 68px;"> <i
+              class="bi bi-chat-square-heart text-secondary fs-3 d-flex align-items-center justify-content-center position-absolute start-0"></i>
+            <svg class="position-absolute top-0 start-0 text-secondary" width="68" height="68" viewbox="0 0 68 68"
+              fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M65.0556 29.2672C75.4219 46.3175 48.5577 59.7388 33.8299 64.3181C21.0447 67.5599 1.98006 58.174 0.888673 42.8524C-0.475555 23.7004 18.3473 14.5883 29.9289 8.26059C41.5104 1.93285 52.0978 7.9543 65.0556 29.2672Z"
+                fill-opacity="0.1"></path>
+            </svg> </div>
+          <h3 class="h4 pb-2 mb-1">100% guarantee</h3>
+          <p class="fs-sm mb-0">Sapien ultrices egestas at faucibus eu diam velit diam id amet nibh quam rutrum diam
+            diam natoque scelerisque.</p>
+        </div> <!-- Item-->
+        <div class="col text-center">
+          <div class="ratio ratio-1x1 position-relative mx-auto mb-3 mb-sm-4" style="width: 68px;"> <i
+              class="bi bi-life-preserver text-secondary fs-3 d-flex align-items-center justify-content-center position-absolute start-0"></i>
+            <svg class="position-absolute top-0 start-0 text-secondary" width="68" height="68" viewbox="0 0 68 68"
+              fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M6.61057 18.2783C10.8205 -1.22686 39.549 7.51899 53.3869 14.3301C64.8949 20.7749 72.2705 40.7038 62.5199 52.5725C50.3318 67.4085 30.4034 61.0689 17.6454 57.6914C4.88745 54.314 1.3482 42.6597 6.61057 18.2783Z"
+                fill-opacity="0.1"></path>
+            </svg> </div>
+          <h3 class="h4 pb-2 mb-1">Work on time</h3>
+          <p class="fs-sm mb-0">Morbi et massa fames ac scelerisque sit commodo dignissim faucibus vel quisque proin
+            lectus orbi et massa fames.</p>
+        </div> <!-- Item-->
+        <div class="col text-center">
+          <div class="ratio ratio-1x1 position-relative mx-auto mb-3 mb-sm-4" style="width: 68px;"> <i
+              class="bi bi-shop-window text-secondary fs-3 d-flex align-items-center justify-content-center position-absolute start-0"></i>
+            <svg class="position-absolute top-0 start-0 text-secondary" width="68" height="68" viewbox="0 0 68 68"
+              fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M9.34481 53.5078C-7.24653 42.4218 11.4487 18.9206 22.8702 8.55583C33.0946 0.223307 54.3393 0.690942 61.7922 14.1221C71.1082 30.9111 57.886 47.1131 50.0546 57.7358C42.2233 68.3586 30.084 67.3653 9.34481 53.5078Z"
+                fill-opacity="0.1"></path>
+            </svg> </div>
+          <h3 class="h4 pb-2 mb-1">Free consultation</h3>
+          <p class="fs-sm mb-0">Consectetur adipiscing elit proin volutpat mollis egestas nam luctus facilisis ultrices
+            pellentesque volutpat ligula est.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <footer class="bg-primary text-white" data-aos="fade-zoom-in">
+    <div class="py-5">
+      <div class="container">
+        <div class="row mx-auto">
+          <div class="col-md-4 mx-auto text-center">
+            <!-- Links -->
+            <ul class="nav justify-content-between mt-5 mt-md-0">
+              <li class="nav-item"><a href="home.html" class="nav-link p-2">Home</a></li>
+              <li class="nav-item"> <a class="nav-link" href="cus-item-list.php">Item list</a></li>
+              <li class="nav-item"> <a class="nav-link" href="pawn-sell.html">Pawn/Sell</a></li>
+              <li class="nav-item"> <a class="nav-link" href="cus-expert-list.php">Expert List</a></li>
+              <li class="nav-item"> <a class="nav-link" href="contact.html">Contact</a></li>
+              <li class="nav-item"> <a class="nav-link" href="admin-login.php">Admin Portal</a></li>
+            </ul>
+            <!-- Social media button -->
+            <ul class="list-inline mt-4 mb-0">
+              <li class="list-inline-item">
+                <a class="btn btn-light btn-sm px-2 text-facebook" href="#">
+                  <i class="bi bi-facebook"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a class="btn btn-light btn-sm px-2 text-instagram" href="#">
+                  <i class="bi bi-instagram"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a class="btn btn-light btn-sm px-2 text-twitter" href="#">
+                  <i class="bi bi-twitter"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a class="btn btn-light btn-sm px-2 text-linkedin" href="#">
+                  <i class="bi bi-linkedin"></i>
+                </a>
+              </li>
+            </ul>
+            <!-- copyright text -->
+            <div class="text-white-50 mt-4"> <small>Copyrights ©2023 pawnasiba.com Powered by
+                <a href="./home.html" class="text-white fw-semibold text-decoration-none">PAWNASIBA</a></small>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+  <script>
+    AOS.init({
+      duration: 1200,
+    })
+  </script>
+  <!-- Bootstrap JavaScript library -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

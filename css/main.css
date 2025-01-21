@@ -1,0 +1,73 @@
+
+html {
+  font-size: 20px;
+  font-weight: 10;
+  font-family: sans-serif;
+  line-height: 1.5;
+}
+body {
+  min-height: 100vh;
+  background-color: #ffffff;
+  color: #000000;
+}
+
+a,
+a:link,
+a:active,
+a:hover,
+a:visited {
+  color: rgb(32, 58, 135);
+}
+
+table {
+  padding: 0;
+  width: 100%;
+  margin: 2rem 0;
+  border: 3px solid rgb(32, 58, 135);
+  border-collapse: separate;
+}
+
+td {
+  padding: 0.25rem 2rem;
+  border: 3px solid rgb(32, 58, 135);
+  font-weight: 100;
+  font-size: 1rem;
+  background-color:rgba(128, 128, 128, 0.443);
+  color: #000000;
+}
+div.filterForm {
+  float: right;
+}
+input {
+  padding: 0.2rem 1rem;
+  font-size: 1rem;
+  height: 1.8rem;
+  margin: 2 rem;
+  border: 2 rem;
+  background-color: rgb(255, 255, 255);
+}
+input[type='submit'] {
+  font-size: 1rem;
+  padding: 0.2rem 1rem;
+  height: 1.8rem;
+  background-color: #bada55;
+  color: #222;
+  margin: 0;
+  cursor: pointer;
+}
+input[type='submit']:last-of-type {
+  background-color: orangered;
+  color: white;
+}
+
+.name .name,
+.item_id .item_id,
+.customer_id .customer_id,
+.brand .brand,
+.type .type,
+.model .model,
+.status .status,
+.expert_id .expert_id {
+  font-weight: 900;
+  /* th */
+}
